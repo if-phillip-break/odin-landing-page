@@ -8,6 +8,13 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 .top {
     display: flex;
