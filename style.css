@@ -19,11 +19,13 @@ h1 {
 .top {
     display: flex;
     flex-direction: row;
+    margin-left: 150px;
 }
 
 .mid {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
 }
 
 .logo {
@@ -35,6 +37,18 @@ h1 {
     gap: 10px;
     margin: 10px;
     align-items: center;
+    margin-right: 150px;
+}
+
+.mid-right {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    margin-right: 150px;
 }
 
 h2, h1, p, a {
