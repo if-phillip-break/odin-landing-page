@@ -86,6 +86,7 @@ h1 {
 
 .image {
     margin: 20px;
+    padding-bottom: 100px;
 }
 
 .captions {
@@ -107,3 +108,73 @@ h2, h1, p, a {
     color: white;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 100px 150px 50px 150px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+
+}
+
+.quote .person {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.signup .banner {
+    background-color: #3882F6;
+    width: 800px;
+    height: 110px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.signup .call {
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.signup .sign {
+    margin-top: 0;
+}
+
+.signup .sign-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 3px;
+    width: 100px;
+    height: 30px;
+}
+
+.footer {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 20px;
+}
+
+.footer p {
+    text-align: center;
+}
